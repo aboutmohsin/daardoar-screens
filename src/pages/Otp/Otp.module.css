@@ -1,0 +1,100 @@
+.otp_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+  padding: 0 1rem;
+}
+.title {
+  text-align: center;
+  font-size: 42.25px;
+  font-weight: 700;
+  line-height: 53.24px;
+  color: #5b5b5b;
+}
+.para {
+  font-size: 26.11px;
+  color: #3a3a3a;
+  text-align: center;
+  /* background-color: red; */
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.inputfield {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4rem 0;
+  line-height: 42.61px;
+}
+.inputfield input {
+  border: none;
+  width: 2.5rem;
+  border-bottom: 0.1rem solid #17456b;
+  gap: 1rem;
+  /* padding: 0 3rem; */
+  outline: none;
+  text-align: center;
+}
+.otp_number {
+  color: #b9b9b9;
+  text-align: center;
+  line-height: 37.88px;
+  font-size: 22.1px;
+  font-weight: 400;
+}
+.number {
+  color: black;
+}
+.resend_otp {
+  color: #17456b;
+}
+.btn_otp {
+  text-align: center;
+  /* background-color: #17456b; */
+}
+.btn_otp > button {
+  background-color: #17456b;
+  border: none;
+  width: 271px;
+  border-radius: 6px;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.icon {
+  padding-right: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 21px;
+  }
+
+  .para {
+    font-size: 16.11px;
+  }
+
+  .inputfield input {
+    border: none;
+    width: 2rem;
+    border-bottom: 0.1rem solid #17456b;
+    gap: 1rem;
+    outline: none;
+    text-align: center;
+  }
+  .otp_number {
+    font-size: 16.1px;
+  }
+  .number {
+    color: black;
+  }
+  .resend_otp {
+    color: #17456b;
+    text-decoration: none;
+  }
+}
